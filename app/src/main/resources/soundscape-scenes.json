@@ -1,0 +1,38 @@
+[
+  {
+    "id": "RAINY_ROOM",
+    "title": "Rainy room",
+    "subtitle": "Soft weather beyond warm glass",
+    "layers": [
+      {"id":"window_rain","name":"Window rain","kind":"RAIN","volume":0.72},
+      {"id":"room_tone","name":"Room tone","kind":"ROOM","volume":0.28},
+      {"id":"distant_traffic","name":"Distant traffic","kind":"TRAFFIC","volume":0.22},
+      {"id":"window_drops","name":"Window droplets","kind":"DROPS","volume":0.32,"intervalSeconds":[8,19]},
+      {"id":"thunder","name":"Far thunder","kind":"THUNDER","volume":0.3,"intervalSeconds":[45,110]}
+    ]
+  },
+  {
+    "id": "NIGHT_TRAIN",
+    "title": "Night train",
+    "subtitle": "Rails carrying you through the dark",
+    "layers": [
+      {"id":"carriage","name":"Carriage hum","kind":"CARRIAGE","volume":0.48},
+      {"id":"rails","name":"Rail rhythm","kind":"RAILS","volume":0.58},
+      {"id":"night_wind","name":"Night wind","kind":"WIND","volume":0.23},
+      {"id":"tunnels","name":"Tunnels","kind":"TUNNEL","volume":0.28,"intervalSeconds":[28,60]},
+      {"id":"passing_train","name":"Passing trains","kind":"PASSING_TRAIN","volume":0.34,"intervalSeconds":[40,95]}
+    ]
+  },
+  {
+    "id": "FOREST_CABIN",
+    "title": "Forest cabin",
+    "subtitle": "Firelight beneath a rain-dark canopy",
+    "layers": [
+      {"id":"fire","name":"Fire","kind":"FIRE","volume":0.62},
+      {"id":"roof_rain","name":"Roof rain","kind":"CABIN_RAIN","volume":0.42},
+      {"id":"forest_wind","name":"Forest wind","kind":"WIND","volume":0.22},
+      {"id":"timber_creaks","name":"Timber creaks","kind":"CREAKS","volume":0.32,"intervalSeconds":[12,35]},
+      {"id":"distant_owl","name":"Distant owl","kind":"OWL","volume":0.22,"intervalSeconds":[35,80]}
+    ]
+  }
+]
